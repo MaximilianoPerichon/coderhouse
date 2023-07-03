@@ -1,0 +1,77 @@
+body {
+    background-color: #606060;
+    height: 76.25rem;
+    width: 100%;
+}
+
+header {
+    height: 8.125rem;
+    background-color: #d9d9d96c;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.img-index {
+    height: 27.3125rem;
+}
+
+.paginas{
+    margin: 0 100px 0 100px;
+    padding: .3125rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.texto-imagen {
+    width: 38.9375rem;
+    margin-top: 1rem;
+    padding: .3125rem 1rem .3125rem 1rem;
+    background-color: #d1cdc3b4;
+}
+
+.img-vertical {
+    height: 12.5rem;
+}
+
+.img-horizontal {
+    height: 7.0313rem
+}
+
+.grid{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 7.0313rem 5.1563rem 7.0313rem;
+    grid-template-rows: 7.0313rem 5.1563rem 7.0313rem;
+    gap: .3125rem;
+    padding: .1563rem;
+}
+.uno{
+    background-color: lightblue;
+    grid-column:1/2;
+}
+.dos{
+    background-color: lightcoral;
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+.tres{
+    background-color: lightgreen;
+    grid-column:1/1;
+    grid-row:2/3;
+}
+.cuatro{
+    background-color: lightskyblue;
+    grid-column:2/3;
+    grid-row: 3/3;
+}
+
+footer {
+    height: 5rem;
+    background-color: #d9d9d96c;
+}
