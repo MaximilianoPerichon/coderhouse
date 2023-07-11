@@ -564,10 +564,6 @@ footer {
 }
 
 @media(max-width: 340px) {
-    /* .img-index{
-        width: 100%;
-    } */
-    
     .grid {
         grid-template-columns: 6.48rem 4.8384rem 6.48rem;
         grid-template-rows: 6.48rem 4.8384rem 6.48rem;
