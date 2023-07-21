@@ -1,0 +1,59 @@
+@media(max-width: 511px) {
+    .servicios{
+        height: 37rem;
+    
+    .texto-imagen{
+        width: 23rem;
+        height: 28rem;
+        margin: 0rem;
+    }}
+    .paginas{
+
+    
+    .grid {
+        grid-template-columns: 8.4rem 6.72rem 8.4rem;
+        grid-template-rows: 8.4rem 6.72rem 8.4rem;
+        padding: .1563rem;
+    }
+
+    .grid-zapatos{
+        grid-template-columns: repeat(5,4.89rem);
+        padding: 0rem;
+    
+
+    .uno-z{
+        grid-column: 1/3;
+        
+    }
+    
+    .dos-z{
+        grid-column: 4/6;
+        
+    }
+    
+    .tres-z{
+        grid-column: 1/3;
+        
+    }
+    
+    .cuatro-z{
+        grid-column: 4/6;
+        
+    }
+    
+    .cinco-z{
+        grid-column: 1/3;
+        
+    }
+    
+    .seis-z{
+        grid-column: 4/6;
+        
+    }
+    
+    .siete-z{
+        grid-column: 2/4;
+    }
+    }
+}
+}

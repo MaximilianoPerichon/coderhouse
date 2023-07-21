@@ -1,0 +1,64 @@
+@media(max-width: 858px) {
+    .izquierda {
+        padding-right: 0rem;
+    }
+
+    .derecha {
+        padding-left: 0rem;
+    }
+.servicios{
+    .texto-imagen {
+        margin: 1rem 1rem 0rem 1rem;
+    }
+}
+    
+
+    .paginas {
+        .grid {
+            grid-template-columns: 6.048rem 4.8384rem 6.048rem;
+            grid-template-rows: 6.048rem 4.8384rem 6.048rem;
+            padding: .25rem;
+        }
+
+        .grid-zapatos {
+            grid-template-columns: repeat(8, 4.45rem);
+            padding: 0rem;
+
+
+            .uno-z {
+                grid-column: 1/3;
+
+            }
+
+            .dos-z {
+                grid-column: 4/6;
+
+            }
+
+            .tres-z {
+                grid-column: 7/9;
+
+            }
+
+            .cuatro-z {
+                grid-column: 1/3;
+
+            }
+
+            .cinco-z {
+                grid-column: 4/6;
+
+            }
+
+            .seis-z {
+                grid-column: 7/9;
+
+            }
+
+            .siete-z {
+                grid-column: 4/6;
+
+            }
+        }
+    }
+}

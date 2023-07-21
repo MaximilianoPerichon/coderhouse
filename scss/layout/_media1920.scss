@@ -1,0 +1,26 @@
+@media(max-width: 1920px) {
+    .paginas {
+        padding: .3125rem 15rem .3125rem 15rem;
+   
+
+    .grid {
+        grid-template-columns: 8.4rem 6.72rem 8.4rem;
+        grid-template-rows: 8.4rem 6.72rem 8.4rem;
+        gap: .3125rem;
+        padding: .1563rem;
+    
+
+    .tres {
+        margin-top: .3125rem;
+    }
+
+    .cuatro {
+        margin-top: -.46875rem;
+    }
+}
+    .grid-zapatos{
+        grid-template-columns: repeat(11,6.6875rem);
+        padding: 0rem;
+    }
+}
+ }

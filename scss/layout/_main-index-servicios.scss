@@ -1,0 +1,32 @@
+.servicios {
+    @include flex(row,wrap,normal,center);
+    margin: 2rem 0rem 2rem 0rem;
+    overflow: hidden;
+    .img-index {
+        height: 27.3125rem;
+    }
+
+    .texto-imagen {
+        width: 38.9375rem;
+        height: 18rem;
+        margin: 1rem 6rem 0rem 6rem;
+        padding: .3125rem 1rem .3125rem 1rem;
+        background-color: $background-textbox;
+        @include flex(column,normal,normal,center);
+        position: absolute;
+        p{
+            padding-top: 1rem;
+        }
+    }
+}
+    .izquierda {
+        justify-content: flex-end;
+        padding-right: 10rem;
+    }
+
+    .derecha {
+        justify-content: flex-start;
+        padding-left: 10rem;
+    }
+
+    

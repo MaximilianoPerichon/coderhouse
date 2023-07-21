@@ -1,0 +1,72 @@
+@media(max-width: 340px) {
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                img{
+            width: 25%;
+        }
+            }
+        }
+    }
+    .nav-bar{
+        margin-right: -1rem;
+        
+        
+    }
+
+    .paginas{
+        .grid {
+        grid-template-columns: 6.48rem 4.8384rem 6.48rem;
+        grid-template-rows: 6.48rem 4.8384rem 6.48rem;
+        padding: .1563rem;
+    
+
+    .tres {
+        margin-top: .0625rem;
+    }
+
+    .cuatro {
+        margin-top: -.0625rem;
+    }
+}
+    .grid-zapatos{
+        grid-template-columns: repeat(5,3.7468rem);
+        padding: 0rem;
+    
+
+    .uno-z{
+        grid-column: 1/3;
+        
+    }
+    
+    .dos-z{
+        grid-column: 4/6;
+        
+    }
+    
+    .tres-z{
+        grid-column: 1/3;
+        
+    }
+    
+    .cuatro-z{
+        grid-column: 4/6;
+        
+    }
+    
+    .cinco-z{
+        grid-column: 1/3;
+        
+    }
+    
+    .seis-z{
+        grid-column: 4/6;
+        
+    }
+    
+    .siete-z{
+        grid-column: 2/4;
+        }
+    }
+}
+    }

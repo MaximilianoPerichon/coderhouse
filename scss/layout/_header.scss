@@ -1,0 +1,14 @@
+body {
+    background-color: $background-sitio;
+    width: 100%;
+    margin: 0rem;
+
+    header {
+        height: 8.125rem;
+        background-color: $background-header-footer;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

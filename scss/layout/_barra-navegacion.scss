@@ -1,0 +1,38 @@
+
+    .navbar{
+        .container-fluid{
+            .navbar-brand{
+                color: $color-text-sitio;
+            }
+            .boton{
+                @include flex(row,wrap,flex-end,normal);
+                
+    gap:  .5rem;
+    .oculto-responsive{
+    display: none;
+  }
+                .navbar-toggler{
+                    color: $color-text-sitio;
+                }
+            }
+            .navbar-collapse{
+                justify-content: flex-end;
+    width: fit-content;
+                .navbar-nav{
+                        .nav-link{
+                text-decoration: none;
+                color: $color-text-sitio;
+                font-size: 1.2rem;
+            }
+                }
+            }
+        }
+            
+    }
+
+.nav-bar {
+    img {
+        padding: .5rem 0rem 0rem .5rem;
+        width: 80%;
+    }
+}
