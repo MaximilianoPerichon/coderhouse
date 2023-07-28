@@ -1,10 +1,12 @@
 @media(max-width: 511px) {
     .servicios{
-        height: 37rem;
+        height: 32rem;
     
     .texto-imagen{
+        flex-direction: column;
+        justify-content: center;
         width: 23rem;
-        height: 28rem;
+        height: 33rem;
         margin: 0rem;
     }}
     .paginas{

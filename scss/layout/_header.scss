@@ -10,5 +10,6 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        @include flex(column,wrap,normal,normal);
     }
 }

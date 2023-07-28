@@ -5,10 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MP_Photography</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <meta name="description" content="Sesiones fotograficas de retrato tanto para tu book personal como para empresas">
+    <meta name="keywords" content="Fotografo, españa, malaga, book, fotografia de retrato, polas">
+    <meta name="author" content="Maximiliano Perichon">
+    <meta name="copyright" content="MP_Photography">
+    <meta property="og:title" content="MP_Photography">
+    <meta property="og:site_name" content="MP_Photography">
+    <meta property="og:url" content="maxiperichonphotography.netlify.app">
+    <meta property="og:description" content="Sesiones para personas, emprendimientos o empresas">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://maxiperichonphotography.netlify.app/assets/MP%20Photography.png">
+    <title>Sesion Retrato | MP_Photography</title>
+    <link rel="shortcut icon" href="../assets/MP-Photography.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -43,53 +56,86 @@
             </div>
         </nav>
     </header>
+    <div class="ful-img" id="fulImgBox">
+        <img src="" alt="" id="fulImg">
+        <span onclick="closeImg()">X</span>
+    </div>
     <main class="paginas">
         <section class="grid">
-            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC6645-1.jpg" alt=""></div>
-            <div class="dos"><img class="rounded img-vertical" src="../assets/_DSC6794-1.jpg" alt=""></div>
-            <div class="tres"><img class="rounded img-vertical" src="../assets/_DSC6715.jpg" alt=""></div>
-            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/_DSC6661-1.jpg" alt=""></div>
+            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC6645-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="dos"><img class="rounded img-vertical" src="../assets/_DSC6794-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="tres"><img class="rounded img-vertical" src="../assets/_DSC6715.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/_DSC6661-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
         </section>
         <section class="grid">
-            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC6690-1.jpg" alt=""></div>
-            <div class="dos"><img class="rounded img-vertical" src="../assets/_DSC6983.jpg" alt=""></div>
-            <div class="tres"><img class="rounded img-vertical" src="../assets/_DSC6966.jpg" alt=""></div>
-            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/_DSC6795-1.jpg" alt=""></div>
+            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC6690-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="dos"><img class="rounded img-vertical" src="../assets/_DSC6983.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="tres"><img class="rounded img-vertical" src="../assets/_DSC6966.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/_DSC6795-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
         </section>
         <section class="grid">
-            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC6755-1.jpg" alt=""></div>
-            <div class="dos"><img class="rounded img-vertical" src="../assets/5-1-1.jpg" alt=""></div>
-            <div class="tres"><img class="rounded img-vertical" src="../assets/Capi-Fede.jpg" alt=""></div>
-            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/32-1-1.jpg" alt=""></div>
+            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC6755-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="dos"><img class="rounded img-vertical" src="../assets/5-1-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="tres"><img class="rounded img-vertical" src="../assets/Capi-Fede.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/32-1-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
         </section>
         <section class="grid">
-            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC7006.jpg" alt=""></div>
-            <div class="dos"><img class="rounded img-vertical" src="../assets/DSC_0270.jpg" alt=""></div>
-            <div class="tres"><img class="rounded img-vertical" src="../assets/51-1-1.jpg" alt=""></div>
-            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/_DSC6970.jpg" alt=""></div>
+            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC7006.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="dos"><img class="rounded img-vertical" src="../assets/DSC_0270.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="tres"><img class="rounded img-vertical" src="../assets/51-1-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/_DSC6970.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
         </section>
         <section class="grid">
-            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC7030.jpg" alt=""></div>
-            <div class="dos"><img class="rounded img-vertical" src="../assets/Capi-Avril.jpg" alt=""></div>
-            <div class="tres"><img class="rounded img-vertical" src="../assets/DSC_0272-1_1.JPG" alt=""></div>
-            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/DSC_0280-1.jpg" alt=""></div>
+            <div class="uno"><img class="rounded img-horizontal" src="../assets/_DSC7030.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="dos"><img class="rounded img-vertical" src="../assets/Capi-Avril.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="tres"><img class="rounded img-vertical" src="../assets/DSC_0272-1_1.JPG" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/DSC_0280-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
         </section>
         <section class="grid">
-            <div class="uno"><img class="rounded img-horizontal" src="../assets/65-1-1.jpg" alt=""></div>
-            <div class="dos"><img class="rounded img-vertical" src="../assets/Capi-Juli.jpg" alt=""></div>
-            <div class="tres"><img class="rounded img-vertical" src="../assets/Capi-Agos.jpg" alt=""></div>
-            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/DSC_0285-1.jpg" alt=""></div>
+            <div class="uno"><img class="rounded img-horizontal" src="../assets/65-1-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="dos"><img class="rounded img-vertical" src="../assets/Capi-Juli.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="tres"><img class="rounded img-vertical" src="../assets/Capi-Agos.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
+            <div class="cuatro"><img class="rounded img-horizontal" src="../assets/DSC_0285-1.jpg" alt=""
+                    onclick="openPrevisualizacion(this.src)"></div>
         </section>
     </main>
     <footer class="menu-footer">
         <a href="contacto.html">Contacto</a>
-            <a href="https://www.instagram.com/maxiperichonphotography" target="_blank"><img
-                    src="../assets/instagram.png" alt=""></a>
-            <a href="https://www.facebook.com/maxiperichonphotography" target="_blank"><img src="../assets/facebook.png"
-                    alt=""></a>
+        <a href="https://www.instagram.com/maxiperichonphotography" target="_blank"><img src="../assets/instagram.png"
+                alt=""></a>
+        <a href="https://www.facebook.com/maxiperichonphotography" target="_blank"><img src="../assets/facebook.png"
+                alt=""></a>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>

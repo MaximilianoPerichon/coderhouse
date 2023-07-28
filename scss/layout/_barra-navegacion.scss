@@ -23,6 +23,9 @@
                 text-decoration: none;
                 color: $color-text-sitio;
                 font-size: 1.2rem;
+                &:hover{
+                    animation:nav-link .6s both;
+                }
             }
                 }
             }
@@ -36,3 +39,4 @@
         width: 80%;
     }
 }
+@keyframes nav-link{0%{text-shadow:0 0 0 transparent}100%{text-shadow:0 0 .5rem rgb(0, 0, 0)}}
