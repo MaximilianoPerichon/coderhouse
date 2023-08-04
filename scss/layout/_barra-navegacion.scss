@@ -1,37 +1,42 @@
+.navbar {
+    .container-fluid {
+        .navbar-brand {
+            color: $color-text-sitio;
+        }
 
-    .navbar{
-        .container-fluid{
-            .navbar-brand{
+        .boton {
+            @include flex(row, wrap, flex-end, normal);
+
+            gap: .5rem;
+
+            .oculto-responsive {
+                display: none;
+            }
+
+            .navbar-toggler {
                 color: $color-text-sitio;
             }
-            .boton{
-                @include flex(row,wrap,flex-end,normal);
-                
-    gap:  .5rem;
-    .oculto-responsive{
-    display: none;
-  }
-                .navbar-toggler{
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end;
+            width: fit-content;
+
+            .navbar-nav {
+                .nav-link {
+                    text-decoration: none;
                     color: $color-text-sitio;
-                }
-            }
-            .navbar-collapse{
-                justify-content: flex-end;
-    width: fit-content;
-                .navbar-nav{
-                        .nav-link{
-                text-decoration: none;
-                color: $color-text-sitio;
-                font-size: 1.2rem;
-                &:hover{
-                    animation:nav-link .6s both;
-                }
-            }
+                    font-size: 1.2rem;
+
+                    &:hover {
+                        animation: nav-link .6s both;
+                    }
                 }
             }
         }
-            
     }
+
+}
 
 .nav-bar {
     img {
@@ -39,4 +44,13 @@
         width: 80%;
     }
 }
-@keyframes nav-link{0%{text-shadow:0 0 0 transparent}100%{text-shadow:0 0 .5rem rgb(0, 0, 0)}}
+
+@keyframes nav-link {
+    0% {
+        text-shadow: 0 0 0 transparent
+    }
+
+    100% {
+        text-shadow: 0 0 .5rem rgb(0, 0, 0)
+    }
+}

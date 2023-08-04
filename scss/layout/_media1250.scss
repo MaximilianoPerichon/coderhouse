@@ -1,11 +1,10 @@
 @media(max-width: 1250px) {
     .paginas {
         padding: .3125rem 1.5rem .3125rem 1.5rem;
-    
 
-    .grid-zapatos{
-        grid-template-columns: repeat(11,6.625rem);
-        padding: 0rem;
+        .grid-zapatos {
+            grid-template-columns: repeat(11, 6.625rem);
+            padding: 0rem;
+        }
     }
-}
 }

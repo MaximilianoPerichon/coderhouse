@@ -1,43 +1,43 @@
 @media(max-width: 698px) {
-    
-    .navbar a{
+
+    .navbar a {
         font-size: 1rem;
     }
 
-    .nav-bar img{
+    .nav-bar img {
         width: 60%;
     }
 
-    .servicios{
+    .servicios {
         justify-content: center;
         padding: 0rem;
-    
 
-    .texto-imagen{
-        width: 31.25rem;
-        height: 26rem;
-        margin: 0rem;
-    }
-}
-    .paginas{
-
-    
-    .grid {
-        grid-template-columns: 5.376rem 4.3rem 5.376rem;
-        grid-template-rows: 5.376rem 4.3rem 5.376rem;
-        padding: .1563rem;
+        .texto-imagen {
+            width: 31.25rem;
+            height: 26rem;
+            margin: 0rem;
+        }
     }
 
-    .tres {
-        margin-top: .25rem;
-    }
+    .paginas {
 
-    .cuatro {
-        margin-top: -0.5rem;
+        .grid {
+            grid-template-columns: 5.376rem 4.3rem 5.376rem;
+            grid-template-rows: 5.376rem 4.3rem 5.376rem;
+            padding: .1563rem;
+        }
+
+        .tres {
+            margin-top: .25rem;
+        }
+
+        .cuatro {
+            margin-top: -0.5rem;
+        }
+
+        .grid-zapatos {
+            grid-template-columns: repeat(8, 3.99rem);
+            padding: 0rem;
+        }
     }
-    .grid-zapatos{
-        grid-template-columns: repeat(8,3.99rem);
-        padding: 0rem;
-}
-}
 }

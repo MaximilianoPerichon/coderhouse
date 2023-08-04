@@ -6,12 +6,12 @@
     .derecha {
         padding-left: 0rem;
     }
-.servicios{
-    .texto-imagen {
-        margin: 1rem 1rem 0rem 1rem;
+
+    .servicios {
+        .texto-imagen {
+            margin: 1rem 1rem 0rem 1rem;
+        }
     }
-}
-    
 
     .paginas {
         .grid {
@@ -23,7 +23,6 @@
         .grid-zapatos {
             grid-template-columns: repeat(8, 4.45rem);
             padding: 0rem;
-
 
             .uno-z {
                 grid-column: 1/3;

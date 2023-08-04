@@ -1,16 +1,15 @@
 @media(max-width: 948px) {
-    .paginas{
+    .paginas {
 
-    
-    .grid {
-        grid-template-columns: 6.048rem 4.8384rem 6.048rem;
-        grid-template-rows: 6.048rem 4.8384rem 6.048rem;
-        padding: .1563rem;
-    }
+        .grid {
+            grid-template-columns: 6.048rem 4.8384rem 6.048rem;
+            grid-template-rows: 6.048rem 4.8384rem 6.048rem;
+            padding: .1563rem;
+        }
 
-    .grid-zapatos{
-        grid-template-columns: repeat(11,4.8438rem);
-        padding: 0rem;
+        .grid-zapatos {
+            grid-template-columns: repeat(11, 4.8438rem);
+            padding: 0rem;
+        }
     }
-}
 }

@@ -1,27 +1,26 @@
 @media(max-width: 1120px) {
     .paginas {
         padding: .3125rem 0rem .3125rem 0rem;
-    
 
-    .grid {
-        grid-template-columns: 6.72rem 5.376rem 6.72rem;
-        grid-template-rows: 6.72rem 5.376rem 6.72rem;
-        gap: .3125rem;
-        padding: .1563rem;
-        
-    }
+        .grid {
+            grid-template-columns: 6.72rem 5.376rem 6.72rem;
+            grid-template-rows: 6.72rem 5.376rem 6.72rem;
+            gap: .3125rem;
+            padding: .1563rem;
 
-    .grid-zapatos{
-        grid-template-columns: repeat(11,5.375rem);
-        padding: 0rem;
-    }
+        }
 
-    .izquierda{
-        padding-right: 5rem;
-    }
+        .grid-zapatos {
+            grid-template-columns: repeat(11, 5.375rem);
+            padding: 0rem;
+        }
 
-    .derecha{
-        padding-left: 5rem;
+        .izquierda {
+            padding-right: 5rem;
+        }
+
+        .derecha {
+            padding-left: 5rem;
+        }
     }
-}
 }

@@ -1,18 +1,28 @@
-
 .menu-footer {
     height: 5rem;
     background-color: $background-header-footer;
-    @include flex(row,normal,center,center);
+    @include flex(row, normal, center, center);
     padding: 0rem .25rem 0rem .25rem;
     gap: .5rem;
-    a{
+
+    a {
         text-decoration: none;
-color: $color-text-sitio;
-font-size: 1rem;
-&:hover{
-    animation:nav-link .6s both;
-}
+        color: $color-text-sitio;
+        font-size: 1rem;
+
+        &:hover {
+            animation: nav-link .6s both;
+        }
     }
-    
+
 }
-@keyframes nav-link{0%{text-shadow:0 0 0 transparent}100%{text-shadow:0 0 .5rem rgb(0, 0, 0)}}
+
+@keyframes nav-link {
+    0% {
+        text-shadow: 0 0 0 transparent
+    }
+
+    100% {
+        text-shadow: 0 0 .5rem rgb(0, 0, 0)
+    }
+}

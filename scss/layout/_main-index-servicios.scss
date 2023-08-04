@@ -1,7 +1,8 @@
 .servicios {
-    @include flex(row,wrap,normal,center);
+    @include flex(row, wrap, normal, center);
     margin: 2rem 0rem 2rem 0rem;
     overflow: hidden;
+
     .img-index {
         height: 27.3125rem;
     }
@@ -12,25 +13,26 @@
         margin: 1rem 6rem 0rem 6rem;
         padding: .3125rem 1rem .3125rem 1rem;
         background-color: $background-textbox;
-        @include flex(row,normal,normal,center);
+        @include flex(row, normal, normal, center);
         position: absolute;
-        h2{
+
+        h2 {
             font-size: 1.5rem;
             padding-right: .5rem;
         }
-        p{
+
+        p {
             padding-top: 1rem;
         }
     }
 }
-    .izquierda {
-        justify-content: flex-end;
-        padding-right: 10rem;
-    }
 
-    .derecha {
-        @extend .izquierda;
-        justify-content: flex-start;
-    }
+.izquierda {
+    justify-content: flex-end;
+    padding-right: 10rem;
+}
 
-    
+.derecha {
+    @extend .izquierda;
+    justify-content: flex-start;
+}

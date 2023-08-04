@@ -1,26 +1,29 @@
-@media(max-width: 991px){
-    .navbar{
+@media(max-width: 991px) {
+    .navbar {
         z-index: 1;
-        
-        .container-fluid{
-            .collapse{
+
+        .container-fluid {
+            .collapse {
                 background-color: #989494;
                 opacity: .8;
-                .navbar-nav{
+
+                .navbar-nav {
                     margin: 1.5rem 0rem 0rem.5rem;
-                    .oculto-full{
-      display: block;
-    }
+
+                    .oculto-full {
+                        display: block;
+                    }
                 }
             }
         }
     }
-    .servicios{
-            justify-content: center;
+
+    .servicios {
+        justify-content: center;
         padding-left: 0;
         padding-right: 0;
         margin-left: 0;
         margin-right: 0;
-        
+
     }
-  }
+}
